@@ -106,8 +106,7 @@ private:
         {
             int pos = cola->obtenerPpio();
             cola->borrarPpio();
-            cout << *this->vertices[pos] << endl;
-            vis[pos] = true;
+           vis[pos] = true;
             cantVert++;
             for (int j = 0; j < tope; j++)
             {
@@ -118,7 +117,7 @@ private:
                 }
             }
         }
-        cout << "-------" << endl;
+        
         return cantVert == cantEsperada;
     }
 
@@ -619,8 +618,3 @@ void pruebaPrim()
     g->prim();
 }
 
-int main()
-{
-    pruebaGrafoTriconexo();
-    return 0;
-}
