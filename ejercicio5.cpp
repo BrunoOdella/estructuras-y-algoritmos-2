@@ -28,6 +28,8 @@ int main(){
     for (int i=cantV-1;i>-1;i--){
         cout << vertices[i] << " " << incidenciasVertices[i] << endl;
     }
+    delete [] incidenciasVertices;
+    delete [] vertices;
 
 
 
