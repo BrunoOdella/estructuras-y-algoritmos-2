@@ -14,6 +14,7 @@ int main(){
 
 	}
 	cout<< correosUnicos(registro) <<endl;
+    delete [] registro;
     return 0;
 
 }
