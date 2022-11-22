@@ -14,8 +14,9 @@ void subconjDeSuma(int m, int *conjunto, int cantNumeros, int pos,
       valorOptimo = valorActual;
       for (int i = 0; i < cantNumeros; solOptima[i] = solActual[i++])
         ;
-    }
+    } 
   }
+ 
   else if (valorActual < valorOptimo)
   {
     int vecesPosibles = m / conjunto[pos];
@@ -26,7 +27,8 @@ void subconjDeSuma(int m, int *conjunto, int cantNumeros, int pos,
                     valorActual + k, solActual, valorOptimo, solOptima);
     }
     solActual[pos] = 0;
-  }
+  
+}
 }
 
 int main()
