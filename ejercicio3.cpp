@@ -1,3 +1,5 @@
+//Union Find sacado de https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/KruskalsEdgeList.java
+//Para hacer el grafo lista adyacencia, nos basamos en https://www.softwaretestinghelp.com/graph-implementation-cpp/
 #include <iostream>
 #include "tads/grafoListaAdy.cpp"
 using namespace std;
